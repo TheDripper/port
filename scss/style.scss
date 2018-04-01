@@ -24,7 +24,7 @@
 }
 @font-face {
 	font-family: "vcr";
-	src: url('vcr.ttf');
+	src: url('../vcr.ttf');
 }
 html, body {
 	width: 100%;
@@ -34,6 +34,8 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	//background: url('../static.jpg');
+	background: blue;
 }
 video {
 	position: fixed;
@@ -46,16 +48,21 @@ video {
 	animation-name: zoom;
 }
 h1 {
-	position: relative;
-	z-index: 999;
 	font-family: "vcr";
-	color: white;
 	font-size: 64px;
 	text-transform: uppercase;
+	position: relative;
+	z-index: 999;
+}
+.day {
+	color: white;
 	cursor: pointer;
    	text-shadow: 
 		5px 5px 0 black,
 		-5px -5px 0 black,
 		-5px 5px 0 black,
 		5px -5px 0 black;
+}
+.night {
+	color: #18ff00;
 }

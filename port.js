@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded',e=>{
 	flash.onclick = function(e) {
 		console.log('test');
 		splash.src='night.mp4';
+		this.className = 'night';
 	}
 });
