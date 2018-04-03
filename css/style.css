@@ -53,4 +53,5 @@ h1 {
   text-shadow: 5px 5px 0 black, -5px -5px 0 black, -5px 5px 0 black, 5px -5px 0 black; }
 
 .night {
-  color: #18ff00; }
+  color: lime;
+  cursor: pointer; }

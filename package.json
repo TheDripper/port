@@ -1,0 +1,28 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "description": "BACK ON MY FEET",
+  "main": "port.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thedripper@github.com/thedripper/port.git"
+  },
+  "keywords": [
+    "BACK",
+    "ON",
+    "THE",
+    "STREET"
+  ],
+  "author": "dr. president friendship barbequeue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedripper/port/issues"
+  },
+  "homepage": "https://github.com/thedripper/port#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
