@@ -1,0 +1,9 @@
+main {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	overflow: hidden;
+}
+video {
+	flex-shrink: 0;
+	width: 33%;
+}
